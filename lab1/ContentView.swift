@@ -14,7 +14,11 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("Swift Lab 1")
+                .font(.title)
+                .bold()
             Text("Moja aplikacja 🙂")
+                .font(.title2)
+                .bold()
         }
         .padding()
     }
